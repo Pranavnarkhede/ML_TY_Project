@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediction</title>
+  <style>
+    .prediction-label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .text-center {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body style="background-color: #F0F8FF">
+  <div class="card-body">
+    <p class="prediction-label">Prediction:</p>
+    <p class="text-center">{{ prediction | safe }}</p>
+  </div>
+</body>
+</html>
